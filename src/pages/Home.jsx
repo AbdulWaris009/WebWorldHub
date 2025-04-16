@@ -10,13 +10,13 @@ import Team from '../components/Team'
 import CustmerSays from '../components/CustmerSays'
 import ContactSection from '../components/ContactSection'
 import Footer from '../components/Footer'
+import LocationCard from '../components/LocationCard'
 
 
 const Home = () => {
   return (
     <>
-      <Subheader/>
-      <Navbar/>
+     
       <Hero/>
       <HelpSection/>
       <Portfolio/>
@@ -25,6 +25,7 @@ const Home = () => {
       <Team/>
       <CustmerSays/>
       <ContactSection/>
+      <LocationCard/>
       <Footer/>
     </>
   )

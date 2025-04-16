@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import shuaib from "../assets/shuaib.jpg";
+import waris from "../assets/waris.jpg";
+
 
 const teamMembers = [
     {
@@ -8,14 +11,14 @@ const teamMembers = [
       image: "https://webworldhub.in/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-14-at-11.01.54-AM.jpeg",
     },
     {
-      name: "Manthan Saini",
+      name: "Mohd Shuaib Anwar",
       role: "Website Developer",
-      image: "https://webworldhub.in/wp-content/uploads/2023/09/Manthan-Saini.png",
+      image: shuaib,
     },
     {
-      name: "Daksh Saini",
-      role: "Website Designer",
-      image: "https://webworldhub.in/wp-content/uploads/2023/09/Daksh-Sain.png",
+      name: "Abdul Waris",
+      role: "Website Developer",
+      image: waris,
     },
   ];
 const Team = () => {

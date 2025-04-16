@@ -1,6 +1,4 @@
 import React from 'react'
-import Subheader from '../components/Subheader'
-import Navbar from '../components/Navbar'
 import ProcessSlider from '../components/ProcessSlider';
 import WhyChooseUs from '../components/WhyChooseUs';
 import ContactSection from '../components/ContactSection';
@@ -9,8 +7,7 @@ import Footer from '../components/Footer';
 const About = () => {
   return (
     <div>
-        <Subheader/>
-        <Navbar/>
+       
         <div>
 
     <section className="relative w-full">

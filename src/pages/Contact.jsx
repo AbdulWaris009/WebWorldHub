@@ -6,10 +6,7 @@ import Footer from '../components/Footer'
 const Contact = () => {
   return (
     <div>
-        <div>
-            <Subheader/>
-            <Navbar/>
-        </div>
+       
         <section className="relative w-full text-center py-20 px-5 bg-cover bg-center" 
         style={{ backgroundImage: "url('https://webworldhub.in/wp-content/uploads/2020/01/about-bg-img.jpg')" }}>
         <h2 className="text-5xl font-bold">Contact Us</h2>
@@ -109,43 +106,54 @@ const Contact = () => {
         {/* Contact Info */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-left mt-12">
           {/* Media Contact */}
-          <div>
-            <h3 className="text-lg font-semibold text-gray-900">Media Contact</h3>
-            <p className="text-gray-700 mt-1">Mr. Shan Malik</p>
-            <p className="text-blue-600 font-bold">+91-9971001036</p>
-            <iframe 
-              className="w-full h-64 mt-4 rounded-lg shadow-lg"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14009.939864984642!2d77.03066909999999!3d28.621784399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04bf58b7a8d5%3A0x6938dca9e1f8c75d!2sWeb%20World%20Hub!5e0!3m2!1sen!2sin!4v1710000000000"
-              allowFullScreen
-              loading="lazy"
-            ></iframe>
-          </div>
+        {/* Media Contact */}
+<div>
+ 
+  <p className="text-gray-700 mt-1">Mr. Shan Malik</p>
+  <p className="text-blue-600 font-bold">+91-9971001036</p>
+  <p className="text-gray-600 mt-2 text-sm">
+    Plot No. A-1, 3rd Floor, Gurudwara Road, Mohan Garden, Block F, Zaildar Enclave, Uttam Nagar, Delhi, 110066
+  </p>
+  <iframe 
+    className="w-full h-64 mt-4 rounded-lg shadow-lg"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1752.7313863008438!2d77.06189795635282!3d28.618271845505073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0513d1d2b45d%3A0xa4a3e5a88a0a96f4!2sWeb%20World%20Hub!5e0!3m2!1sen!2sin!4v1713262151693!5m2!1sen!2sin"
+    allowFullScreen
+    loading="lazy"
+  ></iframe>
+</div>
 
-          {/* Technical Contact */}
-          <div>
-            <h3 className="text-lg font-semibold text-gray-900">Technical Contact</h3>
-            <p className="text-gray-700 mt-1">Ms. Shaini Anand</p>
-            <p className="text-blue-600 font-bold">+91-8285927937</p>
-            <iframe 
-              className="w-full h-64 mt-4 rounded-lg shadow-lg"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14205.330982873745!2d78.0934726!3d27.8788731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x123456789abcdef!2sWeb%20World%20Hub%20Aligarh!5e0!3m2!1sen!2sin!4v1710000000000"
-              allowFullScreen
-              loading="lazy"
-            ></iframe>
-          </div>
+{/* Technical Contact */}
+<div>
+  
+  <p className="text-gray-700 mt-1">Ms. Shan Malik</p>
+  <p className="text-blue-600 font-bold">+91-8285927937</p>
+  <p className="text-gray-600 mt-2 text-sm">
+    Shop No. 4, Ground Floor, Aicher Market, Ram Lila Ground, Ch Raghuveer Singh Bhati Rd, Accher, Pi I & II, Greater Noida, Uttar Pradesh 201310
+  </p>
+  <iframe 
+    className="w-full h-64 mt-4 rounded-lg shadow-lg"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14125.457582706424!2d77.4316795871582!3d28.549138600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cefe3ed2a0d6d%3A0x23431d07cb04586f!2sWeb%20World%20Hub%20Noida!5e0!3m2!1sen!2sin!4v1713262309615!5m2!1sen!2sin"
+    allowFullScreen
+    loading="lazy"
+  ></iframe>
+</div>
 
-          {/* Billing Contact */}
-          <div>
-            <h3 className="text-lg font-semibold text-gray-900">Billing Contact</h3>
-            <p className="text-gray-700 mt-1">Mr. M R</p>
-            <p className="text-blue-600 font-bold">+91-8448623836</p>
-            <iframe 
-              className="w-full h-64 mt-4 rounded-lg shadow-lg"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14127.270481891065!2d77.4126136!3d28.5355164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceb1b0c000001%3A0xabcdef123456789!2sWeb%20World%20Hub%20Noida!5e0!3m2!1sen!2sin!4v1710000000000"
-              allowFullScreen
-              loading="lazy"
-            ></iframe>
-          </div>
+{/* Billing Contact */}
+<div>
+  
+  <p className="text-gray-700 mt-1">Mr. Shan Malik </p>
+  <p className="text-blue-600 font-bold">+91-8448623836</p>
+  <p className="text-gray-600 mt-2 text-sm">
+    House No. 4/1088, Ground Floor, Hamdard Nagar (B), Nearby Chand Masjid, Jamalpur, Aligarh, Uttar Pradesh, 202002
+  </p>
+  <iframe 
+    className="w-full h-64 mt-4 rounded-lg shadow-lg"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7070.147021469349!2d78.07659135867522!3d27.923961760737295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974a58167364417%3A0x78d52d481b951485!2sWeb%20World%20Hub%20Jamalpur!5e0!3m2!1sen!2sin!4v1713262493096!5m2!1sen!2sin"
+    allowFullScreen
+    loading="lazy"
+  ></iframe>
+</div>
+
         </div>
       </div>
     </div>

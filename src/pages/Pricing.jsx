@@ -56,10 +56,7 @@ const plans = [
 const Pricing = () => {
   return (
     <div>
-        <div>
-            <Subheader/>
-            <Navbar/>
-        </div>
+       
         <div className="bg-gradient-to-b from-[#0a0c29] to-[#030617] min-h-screen flex items-center justify-center px-6">
       <div className="flex flex-col md:flex-row gap-6 max-w-6xl w-full justify-center">
         {plans.map((plan, index) => (

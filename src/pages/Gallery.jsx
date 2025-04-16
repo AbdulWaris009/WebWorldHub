@@ -30,52 +30,21 @@ const Gallery = () => {
   return (
     <div>
       {/* Header Section */}
-      <div>
-        <Subheader />
-        <Navbar />
-      </div>
+     
 
       {/* Hero Section */}
       <div className="relative w-full h-[300px] md:h-[400px] flex items-center justify-center">
         <img
-          src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=600"
+          src="https://webworldhub.in/wp-content/uploads/2023/02/istockphoto-683617400-612x612-1.jpg"
           alt="Gallery"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-center"
         />
         <div className="absolute inset-0  bg-opacity-40"></div>
-        <h2 className="relative text-3xl md:text-4xl font-bold text-white">Gallery</h2>
+      
       </div>
 
       {/* Gallery Section */}
       <div className="container mx-auto px-4 py-8">
-        {/* Image Slider (First 3 Images) */}
-        <div className="relative w-full flex items-center justify-center">
-          <button
-            onClick={prevSlide}
-            className="absolute left-2 md:left-4 z-10 text-white  z p-2 rounded-full shadow-md hover:bg-opacity-70 transition"
-          >
-            <FaArrowLeft size={20} />
-          </button>
-          <div className="w-full flex justify-center overflow-hidden">
-            {galleryImages.slice(0, 3).map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                alt={`Slide ${index + 1}`}
-                className={`w-full sm:w-[80%] md:w-[60%] lg:w-[50%] h-[200px] md:h-[300px] object-cover rounded-lg shadow-md transition-opacity ${
-                  index === currentSlide ? "opacity-100 scale-100" : "opacity-0 scale-90"
-                }`}
-              />
-            ))}
-          </div>
-          <button
-            onClick={nextSlide}
-            className="absolute right-2 md:right-4 z-10 text-white bg-black bg-opacity-50 p-2 rounded-full shadow-md hover:bg-opacity-70 transition"
-          >
-            <FaArrowRight size={20} />
-          </button>
-        </div>
-
         {/* Image Grid (Remaining 6 Images) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-6">
           {galleryImages.slice(3).map((image, index) => (

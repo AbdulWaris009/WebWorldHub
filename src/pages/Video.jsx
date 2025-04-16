@@ -12,10 +12,7 @@ const Video = () => {
       ];
   return (
    <div>
-    <div>
-        <Subheader/>
-        <Navbar/>
-    </div>
+  
     <section className="relative w-full text-center py-20 px-5 bg-cover bg-center" 
         style={{ backgroundImage: "url('https://webworldhub.in/wp-content/uploads/2020/01/about-bg-img.jpg')" }}>
         <h2 className="text-5xl font-bold">Video</h2>

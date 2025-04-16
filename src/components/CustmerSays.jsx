@@ -13,21 +13,21 @@ const testimonials = [
       role: "Owner, Golden Shop",
       quote:
         "Team Web World Hub is amazing. Very much alive, friendly, and they exceeded my expectations!",
-      image: "https://webworldhub.in/wp-content/uploads/2023/04/pexels-photo-1438276.jpeg",
+      image: "https://img.freepik.com/free-photo/portrait-handsome-bearded-man-with-glasses-posing-white-wall_114579-47365.jpg?t=st=1744815302~exp=1744818902~hmac=7201512fcd28be8c0ad7ef219e7789d70b73ab498bd4b88158dc29d2cef40304&w=996",
     },
     {
       name: "Usmad Chaudhry",
       role: "Owner, Get Logistic Solutions",
       quote:
         "They are super talented in web development. My website now looks stunning and works perfectly.",
-      image: "https://webworldhub.in/wp-content/uploads/2023/04/pexels-photo-1438276.jpeg",
+      image: "https://img.freepik.com/free-photo/close-up-portrait-curly-handsome-european-male_176532-8133.jpg?t=st=1744815368~exp=1744818968~hmac=a8c314c06ed270c4dd0907cf36476bab2853a8700e68d6231c47be47f8482a5a&w=996",
     },
     {
       name: "Rachel Harper",
       role: "Owner, Beauty Hub",
       quote:
         "Web World Hub has been a game changer for my business. The attention to detail and dedication is impressive.",
-      image: "https://webworldhub.in/wp-content/uploads/2023/04/pexels-photo-1438276.jpeg",
+      image: "https://img.freepik.com/premium-photo/face-young-handsome-bearded-man_251136-35800.jpg?w=740",
     },
   ];
 

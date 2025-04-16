@@ -1,15 +1,37 @@
 import React from 'react'
-import Subheader from './Subheader'
-import Navbar from './Navbar'
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import Footer from './Footer';
+import shuaib from "../assets/shuaib.jpg";
+import waris from "../assets/waris.jpg";
 
 
 const teamMembers = [
     {
-      name: "Sham Malik",
+      name: "Mr. Shan Malik",
       image: "https://webworldhub.in/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-14-at-11.01.54-AM-768x1024.jpeg",
       role: "Director",
+      social: {
+        facebook: "#",
+        twitter: "#",
+        linkedin: "#",
+        instagram: "#",
+      },
+    },
+    {
+      name: "Abdul waris",
+      image: waris,
+      role: "web developer",
+      social: {
+        facebook: "#",
+        twitter: "#",
+        linkedin: "#",
+        instagram: "#",
+      },
+    },
+    {
+      name: "Mohd Shuaib Anwar",
+      image: shuaib,
+      role: "Web developer",
       social: {
         facebook: "#",
         twitter: "#",
@@ -165,9 +187,7 @@ const teamMembers = [
 const OurTeam = () => {
   return (
     <div>
-        <div><Subheader/>
-        <Navbar/>
-        </div>
+       
         <section className="bg-[#0A0A2A] text-white py-12">
       <div className="container mx-auto text-center px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Team</h2>

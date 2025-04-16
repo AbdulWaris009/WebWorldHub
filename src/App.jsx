@@ -10,12 +10,16 @@ import Video from "./pages/Video";
 import Contact from "./pages/Contact";
 import OurTeam from "./components/OurTeam";
 import Loader from "./components/Loader"; // Import Loader component
+import Certificate from "./pages/Certificate";
+import Subheader from "./components/Subheader";
 
 const App = () => {
   const [loadingComplete, setLoadingComplete] = useState(false);
 
   return (
     <BrowserRouter>
+    <Subheader/>
+    <Navbar/>
       {!loadingComplete && <Loader onComplete={() => setLoadingComplete(true)} />}
       
       {loadingComplete && (
@@ -28,6 +32,7 @@ const App = () => {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/video" element={<Video />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/certificate" element={<Certificate />} />
             <Route path="/our-team" element={<OurTeam />} />
           </Routes>
         </>

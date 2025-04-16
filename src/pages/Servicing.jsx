@@ -62,8 +62,7 @@ const Servicing = () => {
 
   return (
     <div className="bg-gray-900 text-white">
-      <Subheader />
-      <Navbar />
+  
 
       {/* Services Header */}
       <section className="relative w-full text-center py-20 px-5 bg-cover bg-center" 

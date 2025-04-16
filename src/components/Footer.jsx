@@ -98,7 +98,7 @@ const Footer = () => {
 
   {/* Visitor Counter placed here */}
   <div className="mt-4">
-    <VisitorCounter />
+    <VisitorCounter/>
   </div>
 </div>
 
@@ -107,9 +107,9 @@ const Footer = () => {
           <h3 className="text-lg font-semibold text-black">Get In Touch</h3>
           <p className="text-white text-md mt-2">
             A-1 3rd Floor Gurudwara Rd, Mohan Garden, Block F, Zaildar Enclave, Uttam Nagar, Delhi, 110066
-            Webworldhub@gmail.com info@webworldhub.in
-            +91 9971001036
-            +91 8448623836,+91 8285927937
+            Webworldhub@gmail.com info@webworldhub.in Support@webworldhub.co.in
+             Help@webworldhub.co.in
+             +91 9971001036 +91 8448623836, +91 8285927937
           </p>
           <p className="text-white text-sm">+91 9971001036</p>
 
@@ -123,7 +123,7 @@ const Footer = () => {
      
 
       {/* Bottom Bar */}
-      <div className="relative z-10 mt-6  h-[6rem] border-gray-300 text-center pt-6 text-sm text-white bg-black bg-opacity-60">
+      <div className="relative z-10 mt  border-gray-300 text-center py-5 text-sm text-white bg-black bg-opacity-60">
       Copyright © 2025 Web World Hub | Website Development | Graphics Designing | Digital Marketing | Google ADS | IT Services | Powered by Web World Hub | Website Development | Graphics Designing | Digital Marketing | Google ADS | IT Services
       </div>
     </footer>

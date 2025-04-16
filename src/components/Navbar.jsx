@@ -42,6 +42,7 @@ const Navbar = () => {
             { name: "Gallery", path: "/gallery" },
             { name: "Video", path: "/video" },
             { name: "Contact", path: "/contact" },
+            { name: "Certificate", path: "/certificate" },
           ].map((item, index) => (
             <li key={index} className="py-3 md:py-0 text-center border-b md:border-none">
               <NavLink
